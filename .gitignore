@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/d-cocoa
+d-cocoa.so
+d-cocoa.dylib
+d-cocoa.dll
+libd-cocoa.a
+d-cocoa.a
+d-cocoa.lib
+d-cocoa-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

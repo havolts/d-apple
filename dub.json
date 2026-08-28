@@ -1,0 +1,20 @@
+{
+	"description": "Dlang bindings for Apple Cocoa.",
+	"license": "proprietary",
+	"authors": ["havolt"],
+	"copyright": "Copyright © 2026, havolt",
+	"name": "d-cocoa",
+	"targetType": "library",
+  "sourcePaths": ["source"],
+  "importPaths": ["source"],
+  "lflags-osx": [
+    "-framework",
+    "Metal",
+    "-framework",
+    "Foundation",
+    "-framework",
+    "MetalKit",
+    "-framework",
+    "Cocoa"
+  ]
+}
