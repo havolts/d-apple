@@ -1,7 +1,9 @@
 //source/nsresponder.d
-module cocoa.nsresponder;
+module cocoa.appkit.nsresponder;
 
 import core.attribute : selector;
+import dmetal;
+import cocoa;
 
 //NSResponder
 extern(Objective-C)

@@ -1,7 +1,9 @@
 //source/nswindow.d
-module cocoa.nswindow;
+module cocoa.appkit.nswindow;
 
 import core.attribute : selector;
+import dmetal;
+import cocoa;
 
 //NSWindow
 extern(Objective-C)
@@ -13,4 +15,16 @@ extern class NSWindow : NSResponder
     void setContentView(NSView view) @selector("setContentView:");
     void setDelegate(NSWindowDelegate windowDelegate) @selector("setDelegate:");
     void makeKeyAndOrderFront(NSObject sender) @selector("makeKeyAndOrderFront:");
+}
+
+extern(Objective-C)
+extern class NSWindowStyleMask : NSObject
+{
+
+}
+
+extern(Objective-C)
+extern class NSBackingStoreType : NSObject
+{
+
 }

@@ -1,5 +1,5 @@
 {
-	"description": "Dlang bindings for Apple Cocoa.",
+	"description": "Dlang bindings for Apple frameworks.",
 	"license": "proprietary",
 	"dependencies": {
     "d-metal": {

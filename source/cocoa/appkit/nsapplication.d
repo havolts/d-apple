@@ -1,7 +1,9 @@
 //source/cocoa/nsapplication.d
-module cocoa.nsapplication;
+module cocoa.appkit.nsapplication;
 
 import core.attribute : selector;
+import dmetal;
+import cocoa;
 
 //NSApplication
 extern(Objective-C)
@@ -14,4 +16,11 @@ extern class NSApplication : NSResponder
     void updateWindows() @selector("updateWindows");
     NSEvent nextEventMatchingMask(NSEventMask mask, NSDate expiration, NSString mode, bool deqFlag) @selector("nextEventMatchingMask:untilDate:inMode:dequeue:");
     void sendEvent(NSEvent event) @selector("sendEvent:");
+}
+
+enum NSApplicationActivationPolicy : NSInteger
+{
+    NSApplicationActivationPolicyRegular = 0,
+    NSApplicationActivationPolicyAccessory = 1,
+    NSApplicationActivationPolicyProhibited = 2
 }

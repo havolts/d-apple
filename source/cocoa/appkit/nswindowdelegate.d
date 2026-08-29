@@ -1,11 +1,13 @@
 //source/nswindowdelegate.d
-module cocoa.nswindowdelegate;
+module cocoa.appkit.nswindowdelegate;
 
 import core.attribute : selector;
+import dmetal;
+import cocoa;
 
 //NSWindowDelegate
 extern(Objective-C)
-interface NSWindowDelegate : NSResponder
+interface NSWindowDelegate
 {
     void windowWillClose(NSNotification notification) @selector("windowWillClose:");
 }
