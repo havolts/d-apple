@@ -1,5 +1,5 @@
 //source/nsnotificationcenter.d
-module nsnotificationcenter;
+module cocoa.nsnotificationcenter;
 
 import core.attribute : selector;
 

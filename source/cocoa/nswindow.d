@@ -1,5 +1,5 @@
 //source/nswindow.d
-module nswindow;
+module cocoa.nswindow;
 
 import core.attribute : selector;
 
@@ -12,5 +12,5 @@ extern class NSWindow : NSResponder
     void setTitle(NSString title) @selector("setTitle:");
     void setContentView(NSView view) @selector("setContentView:");
     void setDelegate(NSWindowDelegate windowDelegate) @selector("setDelegate:");
-    void makeKeyAndOrderFront(void* sender) @selector("makeKeyAndOrderFront:");
+    void makeKeyAndOrderFront(NSObject sender) @selector("makeKeyAndOrderFront:");
 }

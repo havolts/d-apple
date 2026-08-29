@@ -1,5 +1,5 @@
 //source/nsview.d
-module nsview;
+module cocoa.nsview;
 
 import core.attribute : selector;
 

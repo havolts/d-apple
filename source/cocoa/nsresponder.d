@@ -1,5 +1,5 @@
 //source/nsresponder.d
-module nsresponder;
+module cocoa.nsresponder;
 
 import core.attribute : selector;
 

@@ -1,5 +1,5 @@
 //source/nswindowdelegate.d
-module nswindowdelegate;
+module cocoa.nswindowdelegate;
 
 import core.attribute : selector;
 

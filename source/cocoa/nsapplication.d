@@ -1,5 +1,5 @@
-//source/nsapplication.d
-module nsapplication;
+//source/cocoa/nsapplication.d
+module cocoa.nsapplication;
 
 import core.attribute : selector;
 
