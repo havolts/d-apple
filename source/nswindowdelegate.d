@@ -5,8 +5,7 @@ import core.attribute : selector;
 
 //NSWindowDelegate
 extern(Objective-C)
-extern class NSWindowDelegate : NSResponder
+interface NSWindowDelegate : NSResponder
 {
-    static NSWindowDelegate alloc() @selector("alloc");
-    NSWindowDelegate init() @selector("init");
+    void windowWillClose(NSNotification notification) @selector("windowWillClose:");
 }
