@@ -35,8 +35,8 @@ extern class NSWindow : NSResponder
 
     enum BackingStoreType : NSUInteger
     {
-        NSBackingStoreRetained    = 0,   // deprecated, legacy
-        NSBackingStoreNonretained = 1,   // deprecated, legacy
-        NSBackingStoreBuffered    = 2,   // the only one actually used today
+        retained    = 0,   // deprecated, legacy
+        nonretained = 1,   // deprecated, legacy
+        buffered    = 2,   // the only one actually used today
     }
 }
