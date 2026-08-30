@@ -11,7 +11,5 @@ public import metal.mtllibrary;
 public import metal.mtlrendercommandencoder;
 public import metal.mtlrenderpass;
 public import metal.mtlrenderpipeline;
-public import metal.mtlview;
 public import metal.mtltexture;
 public import metal.mtldepthstencil;
-public import metal.mtltextureloader;

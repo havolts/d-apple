@@ -3,6 +3,8 @@ module metalkit.mtkview;
 
 import core.attribute : selector;
 import metal;
+import cocoa;
+import coregraphics;
 
 //MTKView
 extern(Objective-C)

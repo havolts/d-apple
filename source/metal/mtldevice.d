@@ -2,7 +2,8 @@
 module metal.mtldevice;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
+import cocoa;
 
 //MTLDevice
 extern (Objective-C)

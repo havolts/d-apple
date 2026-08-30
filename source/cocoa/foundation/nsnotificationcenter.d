@@ -1,8 +1,8 @@
 //source/nsnotificationcenter.d
-module cocoa.nsnotificationcenter;
+module cocoa.foundation.nsnotificationcenter;
 
 import core.attribute : selector;
-import dmetal;
+
 import cocoa;
 
 //NSNotificationCenter

@@ -1,7 +1,8 @@
 module metal.mtlcommandqueue;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
+import cocoa;
 
 //MTLCommandQueue
 extern(Objective-C)

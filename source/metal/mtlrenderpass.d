@@ -2,6 +2,7 @@
 module metal.mtlrenderpass;
 import core.attribute : selector;
 import metal;
+import cocoa;
 
 //MTLRenderPassDescriptor
 extern(Objective-C)

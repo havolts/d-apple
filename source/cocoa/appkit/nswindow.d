@@ -2,7 +2,7 @@
 module cocoa.appkit.nswindow;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
 import cocoa;
 
 //NSWindow

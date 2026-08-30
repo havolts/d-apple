@@ -1,4 +1,4 @@
-module cocoa.appkit.nsevent;
+module cocoa.foundation.nspoint;
 import core.attribute : selector;
 import cocoa;
 

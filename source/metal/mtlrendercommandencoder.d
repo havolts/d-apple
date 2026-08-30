@@ -3,6 +3,7 @@ module metal.mtlrendercommandencoder;
 
 import core.attribute : selector;
 import metal;
+import cocoa;
 
 //MTLRenderCommandEncoder
 extern(Objective-C)

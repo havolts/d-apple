@@ -3,7 +3,7 @@ module metal.mtlrenderpipeline;
 
 import core.attribute : selector;
 import metal;
-
+import cocoa;
 //MTLRenderPipelineDescriptor
 extern(Objective-C)
 extern class MTLRenderPipelineDescriptor : NSObject

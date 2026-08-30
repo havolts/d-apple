@@ -2,7 +2,6 @@
 module cocoa.appkit.nsresponder;
 
 import core.attribute : selector;
-import dmetal;
 import cocoa;
 
 //NSResponder

@@ -1,7 +1,8 @@
 module metal.mtldepthstencil;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
+import cocoa;
 
 extern (Objective-C)
 extern class MTLDepthStencilState : NSObject

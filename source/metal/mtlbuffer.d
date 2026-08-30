@@ -1,7 +1,8 @@
 module metal.mtlbuffer;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
+import cocoa;
 
 //MTLBuffer
 extern(Objective-C)

@@ -2,7 +2,7 @@
 module cocoa.appkit.nsapplication;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
 import cocoa;
 
 //NSApplication

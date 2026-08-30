@@ -2,8 +2,8 @@
 module metal.mtldrawable;
 
 import core.attribute : selector;
-import dmetal;
-
+import metal;
+import cocoa;
 //MTLDrawable
 extern(Objective-C)
 extern class MTLDrawable : NSObject

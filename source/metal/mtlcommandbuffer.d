@@ -1,7 +1,8 @@
 module metal.mtlcommandbuffer;
 
 import core.attribute : selector;
-import dmetal;
+import metal;
+import cocoa;
 
 //MTLCommandBuffer
 extern(Objective-C)

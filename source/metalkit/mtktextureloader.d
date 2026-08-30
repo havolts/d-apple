@@ -2,6 +2,7 @@ module metalkit.mtktextureloader;
 
 import core.attribute : selector;
 import metal;
+import cocoa;
 
 extern (Objective-C)
 extern class MTKTextureLoader : NSObject
