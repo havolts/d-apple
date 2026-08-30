@@ -1,12 +1,6 @@
 {
 	"description": "Dlang bindings for Apple frameworks.",
 	"license": "proprietary",
-	"dependencies": {
-    "d-metal": {
-      "repository": "git+https://github.com/havolts/dlang-metal-bindings.git",
-      "version": "~main"
-    }
-  },
 	"authors": ["havolt"],
 	"copyright": "Copyright © 2026, havolt",
 	"name": "d-apple",

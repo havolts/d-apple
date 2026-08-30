@@ -2,7 +2,6 @@
 module cocoa.appkit.nswindowdelegate;
 
 import core.attribute : selector;
-import dmetal;
 import cocoa;
 
 //NSWindowDelegate
