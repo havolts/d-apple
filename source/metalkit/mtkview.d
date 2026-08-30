@@ -8,7 +8,7 @@ import coregraphics;
 
 //MTKView
 extern(Objective-C)
-extern class MTKView : NSObject
+extern class MTKView : NSView
 {
     static MTKView alloc() @selector("alloc");
     MTKView initWithFrame(CGRect frame, MTLDevice device) @selector("initWithFrame:device:");

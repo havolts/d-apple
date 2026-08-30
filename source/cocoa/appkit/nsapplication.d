@@ -18,9 +18,11 @@ extern class NSApplication : NSResponder
     void sendEvent(NSEvent event) @selector("sendEvent:");
 }
 
+// Written by Claude AI {-
 enum NSApplicationActivationPolicy : NSInteger
 {
     NSApplicationActivationPolicyRegular = 0,
     NSApplicationActivationPolicyAccessory = 1,
     NSApplicationActivationPolicyProhibited = 2
 }
+// -}
