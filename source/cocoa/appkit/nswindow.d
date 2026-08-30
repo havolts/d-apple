@@ -11,7 +11,8 @@ extern class NSWindow : NSResponder
 {
     static NSWindow alloc() @selector("alloc");
     NSWindow init(NSRect contentRect, NSWindow.StyleMask style, NSWindow.BackingStoreType backingStoreType, bool flag) @selector("initWithContentRect:styleMask:backing:defer:");
-    void setTitle(NSString title) @selector("setTitle:");
+    NSString title() @selector("title");
+    void title(NSString title) @selector("setTitle:");
     void setContentView(NSView view) @selector("setContentView:");
     void setDelegate(NSWindowDelegate windowDelegate) @selector("setDelegate:");
     void makeKeyAndOrderFront(NSObject sender) @selector("makeKeyAndOrderFront:");
