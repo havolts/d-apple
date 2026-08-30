@@ -9,7 +9,7 @@
   },
 	"authors": ["havolt"],
 	"copyright": "Copyright © 2026, havolt",
-	"name": "d-cocoa",
+	"name": "d-apple",
 	"targetType": "library",
   "sourcePaths": ["source"],
   "importPaths": ["source"],
