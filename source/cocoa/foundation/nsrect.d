@@ -1,9 +1,5 @@
 module cocoa.foundation.nsrect;
 
-import cocoa;
+import coregraphics;
 
-extern(Objective-C)
-extern class NSRect : NSObject
-{
-
-}
+alias NSRect = CGRect;
