@@ -9,7 +9,7 @@ import cocoa;
 extern(Objective-C)
 extern class NSWindow : NSResponder
 {
-    static NSWindow alloc() @selector("alloc");
+    override static NSWindow alloc() @selector("alloc");
     NSWindow init(NSRect contentRect, NSWindow.StyleMask style, NSWindow.BackingStoreType backingStoreType, bool flag) @selector("initWithContentRect:styleMask:backing:defer:");
     NSString title() @selector("title");
     void title(NSString title) @selector("setTitle:");

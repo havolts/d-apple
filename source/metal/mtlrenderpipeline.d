@@ -8,8 +8,8 @@ import cocoa;
 extern(Objective-C)
 extern class MTLRenderPipelineDescriptor : NSObject
 {
-    static MTLRenderPipelineDescriptor alloc() @selector("alloc");
-    MTLRenderPipelineDescriptor init() @selector("init");
+    override static MTLRenderPipelineDescriptor alloc() @selector("alloc");
+    override MTLRenderPipelineDescriptor init() @selector("init");
     MTLRenderPipelineColorAttachmentDescriptorArray colorAttachments() @selector("colorAttachments");
     MTLFunction vertexFunction() @selector("vertexFunction");
     void vertexFunction(MTLFunction vertFunction) @selector("setVertexFunction:");

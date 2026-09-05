@@ -10,7 +10,7 @@ import coregraphics;
 extern(Objective-C)
 extern class MTKView : NSView
 {
-    static MTKView alloc() @selector("alloc");
+    override static MTKView alloc() @selector("alloc");
     MTKView initWithFrame(CGRect frame, MTLDevice device) @selector("initWithFrame:device:");
     MTLClearColor clearColor() @selector ("clearColor");
     void clearColor(MTLClearColor color) @selector("setClearColor:");

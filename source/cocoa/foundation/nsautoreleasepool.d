@@ -6,7 +6,7 @@ import cocoa.foundation;
 extern (Objective-C)
 extern class NSAutoreleasePool : NSObject
 {
-    static NSAutoreleasePool alloc() @selector("alloc");
-    NSAutoreleasePool init() @selector("init");
+    override static NSAutoreleasePool alloc() @selector("alloc");
+    override NSAutoreleasePool init() @selector("init");
     void drain() @selector("drain");
 }
