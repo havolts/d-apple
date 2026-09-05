@@ -16,6 +16,7 @@ extern class NSApplication : NSResponder
     void updateWindows() @selector("updateWindows");
     NSEvent nextEventMatchingMask(NSEventMask mask, NSDate expiration, NSString mode, bool deqFlag) @selector("nextEventMatchingMask:untilDate:inMode:dequeue:");
     void sendEvent(NSEvent event) @selector("sendEvent:");
+    void run() @selector("run");
 }
 
 // Written by Claude AI {-
