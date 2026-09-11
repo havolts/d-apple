@@ -23,4 +23,5 @@ extern class MTKView : NSView
     void isPaused(bool query) @selector("setPaused:");
     void enableSetNeedsDisplay(bool query) @selector("setEnableSetNeedsDisplay:");
     CALayer layer() @selector("layer");
+    CAMetalLayer metalLayer() @selector("layer");
 }
