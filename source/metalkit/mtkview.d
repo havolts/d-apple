@@ -5,6 +5,7 @@ import core.attribute : selector;
 import metal;
 import cocoa;
 import coregraphics;
+import coreanimation;
 
 //MTKView
 extern(Objective-C)
@@ -21,4 +22,5 @@ extern class MTKView : NSView
     void depthStencilPixelFormat(MTLPixelFormat pixelFormat) @selector("setDepthStencilPixelFormat:");
     void isPaused(bool query) @selector("setPaused:");
     void enableSetNeedsDisplay(bool query) @selector("setEnableSetNeedsDisplay:");
+    CALayer layer() @selector("layer");
 }
