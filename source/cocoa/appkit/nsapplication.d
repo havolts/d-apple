@@ -14,7 +14,7 @@ extern class NSApplication : NSResponder
     void activateIgnoringOtherApps(bool flag) @selector("activateIgnoringOtherApps:");
     void terminate(NSObject sender) @selector("terminate:");
     void updateWindows() @selector("updateWindows");
-    NSEvent nextEventMatchingMask(NSEventMask mask, NSDate expiration, NSString mode, bool deqFlag) @selector("nextEventMatchingMask:untilDate:inMode:dequeue:");
+    NSEvent nextEventMatchingMask(NSEventMask mask, NSDate expiration, NSRunLoopMode mode, bool deqFlag) @selector("nextEventMatchingMask:untilDate:inMode:dequeue:");
     void sendEvent(NSEvent event) @selector("sendEvent:");
     void run() @selector("run");
 }

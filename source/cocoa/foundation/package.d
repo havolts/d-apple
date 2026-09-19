@@ -12,3 +12,4 @@ public import cocoa.foundation.nsrect;
 public import cocoa.foundation.nsdate;
 public import cocoa.foundation.nspoint;
 public import cocoa.foundation.nsnotificationcenter;
+public import cocoa.foundation.nsrunloop;
